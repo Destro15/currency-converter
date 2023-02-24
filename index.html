@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konwerter Walut</title>
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/boxsizing.css" rel="stylesheet">
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/currency.css" rel="stylesheet">
+    <link href="css/EUR.css" rel="stylesheet">
+    <link href="css/fieldset.css" rel="stylesheet">
+    <link href="css/GBP.css" rel="stylesheet">
+    <link href="css/legend.css" rel="stylesheet">
+    <link href="css/result.css" rel="stylesheet">
+    <link href="css/PLN.css" rel="stylesheet">
+    <link href="css/USD.css" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <fieldset class="fieldset">
+        <legend class="legend">Przelicznik Mamony </legend>
+        <form class="js-form form">
+            <p>
+                <label>
+                    *Kwota w PLN:<input class="js-amount" type="number" min="1" required step="0.01">
+                </label>
+            </p>
+            <p>
+                <label class="label__currency">
+                    <strong>(kurs z dnia 17.02.2023)wybierz walutę:</strong>
+                    <select class="js-currency">
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <button>Przelicz!</button>
+            </p>
+            <p>
+                Ilość mamony:<strong class="js-result">N/A</strong>
+            </p>
+        </form>
+    </fieldset>
+
+
+
+
+
+
+    <script>console.log("Witam!")</script>
+</body>
+
+</html>
